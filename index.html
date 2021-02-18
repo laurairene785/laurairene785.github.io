@@ -5,104 +5,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  
+
+  <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Tangerine" >  
   <link rel="Stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-  <link rel="shortcut icon" type="image\x-icon" href="logo.png">
+  
   <title> Laura Irene </title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#"><strong>Menu</strong></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-   
-    <div class="landing-text">
-      <div class="full-bg-img">
-        <div class="mask rgba-indigo-slight flex-center">
-          <div class="container">
-            <div class="white-text text-center wow fadeInUp" id="name" class="name">
-              <br><br>
-              <h1>Laura Irene Capo Hernandez</h1>
-              <h6>Full Stack Developer</h6>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="menu-toggler">
+    <div class="bar half start"></div>
+    <div class="bar"></div>
+    <div class="bar half end"></div>  
     </div>
-</header>
+    <nav class="top-nav">
   
-  <main class="text-center py-5 mt-3" class="about">
-    <div class="container" >
-      <div class="row" class="about-details">
-        <div class="col-sm-12" id="about" class="about-heading">
-          <h1>About Me </h1>
-          <h6>
-            My self
-          </h6>
-          <p> I'm a Frontend Developer. I'm constantly learning and trying to get better, because my bigest rival it's
-            my self. Constantly making of me a better engeenier and better person.
-            I'm happy and hadle well big responsabilitys and blens perfectly in a group, im perfect for a team work.
-          </p>
-        </div>
-      </div>
-    </div>
-  </main>
-  <br><br>
-  <section id="skills" class="skills">
-    <div class="text-center py-5 mt-3">
+    <ul class="nav-list">
+      <li>
+        <a href="index.html" class="nav-link"> Home </a>
+      </li>
+      <li>
+        <a href="#about" class="nav-link"> About Me </a>
+      </li>
+      <li>
+        <a href="#skills" class="nav-link"> Skills and Abilities  </a>
+      </li>
+      <li>
+        <a href="#portfolio" class="nav-link"> Portfolio </a>
+      </li>
+      <li>
+        <a href="#contact" class="nav-link"> Contact me </a>
+      </li>
+    </ul>
+ </nav>
 
-      <div class="container" class="about-details">
-        <div class="row" class="about-heading">
-          <div class="col-sm-12" id="about" class="section-heading">
-            <h1>Skills</h1>
-            <h6>
-              Computer Science Engenier
-            </h6>
-            
-          </div>
-        </div>
+ <div class="landing-text">
+   <h1>
+     Laura Irene Capo Hernandez
+   </h1>
+   <h6>
+     Full Stack Developer
+   </h6>
+ </div>
+  </header>
+<section class="about" id="about">
+  <div class="container">
+    <div class="row"   >
+      <article class="col-sm-12" >
+      <div class="about-details">
+        <div class="about-heading">
+        <h1>
+          About Me 
+        </h1>
+        <h6>
+          My self
+        </h6>
+        <p> I'm a Frontend Developer. I'm constantly learning and trying to get better, because my bigest rival it's my self. Constantly making of me a better engeenier and better person.
+         I'm happy and hadle well big responsabilitys and blens perfectly in a group, im perfect for a team work.  
+        </p>
       </div>
+    </article>
     </div>
-    <div class="container-fluid themed-container">
-      
+  </div>
+</section>
+<section class="skills" id="skills"> 
+  <div class="container" class="row">
+    <div class="about-details">
+      <div class="about-heading">
+    <div class="section-heading" class="col-sm-12">
+      <h1>Skills</h1>
+     <h6>
+       Computer Science Engeenier
+     </h6>
+     </div>
+     </div>
     </div>
-    <div class="row mb-3">
-      <div class="col-sm-4 themed-grid-col">
+    <div class="my-skills" class="col-sm-12">
+      <div class="skill"  class="col-sm-4">
+        <div class="icon-container">
+          <i class="fas fa-code"> </i> 
+        </div>
         <h1>
           Web Desing
         </h1>
@@ -110,231 +94,285 @@
           Fresh ideas, i take advices, and ajust to the clients wishes.
         </p>
       </div>
-      <div class="col-sm-4 themed-grid-col">
+      <div class="skill" class="col-sm-4">
+        <div class="icon-container">
+             <i class="fas fa-chart-bar"></i>
+        </div>
         <h1>
           Frontend Development
         </h1>
-        <ul>
-          <li>
-            HTML
-          </li>
-          <li>
-            CSS
-          </li>
-          <li>
-            JavaScprit
-          </li>
-          <li>
-            Several Frameworks:
-          </li>
-          <li>
-            Angular
-          </li>
-          <li>
-            VueJs
-          </li>
-          <li>
-            ReactJS
-          </li>
-        </ul>
+       <ul>
+         <li>
+           HTML
+         </li>
+         <li>
+         CSS
+        </li>
+        <li>
+         JavaScprit
+        </li>
+        <li>
+         Several Frameworks: 
+        </li>
+        <li>
+        Angular
+        </li>
+        <li>
+         VueJs
+        </li>
+        <li>
+         ReactJS
+        </li>
+        <li>
+          Hugo
+        </li>
+        <li>
+          Quasar
+        </li>
+       </ul>
       </div>
-      <div class="col-sm-4 themed-grid-col">
+      <div class="skill" class="col-sm-4">
+        <div class="icon-container">
+             <i class="fas fa-layer-group"></i>
+        </div>
         <h1>
           Backend Development
         </h1>
-        <ul>
-          <li>
-            NodeJS
-          </li>
-          <li>
-            Php
-          </li>
-          <li>
-            Go
-          </li>
-        </ul>
+       <ul>
+         <li>
+           NodeJS
+         </li>
+         <li>
+          Php
+        </li>
+        <li>
+         Go
+        </li>
+        <li>
+          Django
+        </li>
+       </ul>
+       <ul>
+         <h1>
+         Programing Languagues
+       </h1>
+       <li>
+         Python
+       </li>
+       <li>
+         Java
+       </li>
+       </ul>
+       <ul>
+         <h1>
+           Work with cloud computing services
+         </h1>
+         <li>
+           AWS
+         </li>
+         <li>
+           Heroku
+         </li>
+       </ul>
+       <ul>
+         <h1>
+           Others
+         </h1>
+         <li>
+           OSB 12c
+         </li>
+         <li>
+           Docker
+         </li>
+         
+       </ul>
+         
       </div>
     </div>
-  </section>
-  <br>
-  <br>
-  <section id="portfolio">
-    <div class="text-center py-5 mt-3">
-
-        <div class="container" class="about-details">
-            <div class="row" class="about-heading">
-              <div class="col-sm-12" id="about" class="section-heading" id="portfolio">
-            <h1>Projects</h1>
-            <h6>
-             See some of my recent work
-            </h6>
-            
-          </div>
+  </div>
+</section>
+<section class="skills" id="skills"> 
+  <div class="container" class="row">
+    <div class="section-heading" class="col-sm-12">
+      <div class="about-details">
+        <div class="about-heading">
+      <h1>Portfolio</h1>
+     <h6>
+       View some of my work
+     </h6>
+     </div>
+     </div>
+    </div>
+    <div class="my-skills" class="col-sm-12">
+      <div class="skill" class="col-sm-2">
+        <div class="icon-container">
+          <i class="fas fa-code"> </i> 
         </div>
-      </div>
-    </div>
-    <div class="container-fluid themed-container">
-      
-    </div>
-    <div class="row mb-3">
-      <div class="col-6 col-sm-4 themed-grid-col">
         <h1>
-          Plus Educativa
+         Plus Educativa
         </h1>
         <p>
-          A Nova School promotion website
+         A Nova School promotion website
         </p>
-        <a href="https://github.com/laurairene785/PlusEducativa.git"> Go to the project</a>
+        <a href="hhttps://github.com/laurairene785/PlusEducativa.git"> Go to the project</a>
       </div>
-      <div class="col-6 col-sm-4 themed-grid-col">
+      <div class="skill" class="col-sm-2">
+        <div class="icon-container">
+             <i class="fas fa-chart-bar"></i>
+        </div>
         <h1>
-          Pigs
+         Pigs
         </h1>
         <p>
           A full store website to sell pork
-        </p>
-        <a href="https://github.com/laurairene785/Pigs.git"> Go to the project</a>
+         </p>
+         <a href="hhttps://github.com/laurairene785/Pigs.git"> Go to the project</a>
       </div>
-      <div class="col-6 col-sm-4 themed-grid-col">
+      <div class="skill" class="col-sm-2">
+        <div class="icon-container">
+             <i class="fas fa-layer-group"></i>
+        </div>
         <h1>
           Ebook
-        </h1>
-        <p>
+         </h1>
+         <p>
           A store to sell electronic books (ebooks)
-        </p>
-        <a href="https://github.com/laurairene785/Ebook.git"> Go to the project</a>
+          </p>
+          <a href="hhttps://github.com/laurairene785/Ebook.git"> Go to the project</a>
       </div>
-    </div>
-    <div class="container-fluid themed-container"></div>
-    <div class="row mb-3">
-      <div class="col-6 col-sm-4 themed-grid-col">
+      <div class="skill" class="col-sm-2">
+        <div class="icon-container">
+             <i class="fas fa-layer-group"></i>
+        </div>
         <h1>
-          Binary Search Tree
+        Binary Search Tree
+         </h1>
+         <p>
+         A data structure to use in other projects as a library
+          </p>
+          <a href="hhttps://github.com/laurairene785/BST.git"> Go to the project</a>
+      </div>
+      <div class="skill" class="col-sm-2">
+        <div class="icon-container">
+             <i class="fas fa-layer-group"></i>
+        </div>
+        <h1>
+       Others Projects
+         </h1>
+         <p>
+        Click here to see the rest of my work
+          </p>
+          <a href="hhttps://github.com/laurairene785/"> Go to the my github page </a>
+      </div>
+       
+    </div>
+  </div>
+</section>
+<section class="skills" id="skills"> 
+  <div class="container" class="row">
+    <div class="about-details">
+      <div class="about-heading">
+    <div class="section-heading" class="col-sm-12">
+      <h1>Education</h1>
+     <h6>
+      Preparation and aptituds
+     </h6>
+    </div>
+   </div>
+    </div>
+    <div class="my-skills" class="col-sm-12">
+      <div class="skill" class="col-sm-6">
+        <div class="icon-container">
+          <i class="fas fa-code"> </i> 
+        </div>
+        <h1>
+        Languagues
+        </h1>
+       
+            <h3>
+                Spanish : Native
+            </h3>
+          <br>        
+          
+            <h3>
+              English : C2 : Certificated
+            <a href="CI.jpg"> : See diplom </a>
+            </h3>
+            
+        <br>
+          
+            <h3>
+               French : A2 : Certificated
+            <a href=""> : See diplom </a>
+            </h3>
+           
+          
+      </div>
+      <div class="skill" class="col-sm-6">
+        <div class="icon-container">
+             <i class="fas fa-chart-bar"></i>
+        </div>
+        <h1>
+        Education
         </h1>
         <p>
-          A data structure to use in other projects as a library
-        </p>
-        <a href="https://github.com/laurairene785/BST.git"> Go to the project</a>
+         Pinar del Rio University
+         </p>
       </div>
-      <div class="col-6 col-sm-4 themed-grid-col">
-        <h1>
-          Others Projects
-        </h1>
-        <p>
-          Click here to see the rest of my work
-        </p>
-        <a href="https://github.com/laurairene785/"> Go to the my github page </a>
-      </div>
-      <div class="col-6 col-sm-4 themed-grid-col"></div>
+          
     </div>
-  </section>
-  <section id="education">
-    <div class="text-center py-5 mt-3">
-
-      <div class="container">
-        <div class="container" class="about-details">
-            <div class="row" class="about-heading">
-              <div class="col-sm-12" id="about" class="section-heading" id="education">
-            <h1>Education</h1>
-            <h6>
-              Education and Languagues
-            </h6>
-            
-          </div>
+  </div>
+</section>
+<section class="skills" id="skills"> 
+  <div class="container" class="row">
+    <div class="about-details">
+      <div class="about-heading">
+    <div class="section-heading" class="col-sm-12">
+      <h1>Gallery</h1>
+     <h6>
+          ME 
+     </h6>
+    </div>
+     </div>
+    </div>
+    <div class="my-skills" class="col-sm-12">
+      <div class="skill" class="col-sm-6">
+        <div class="icon-container">
+          <i class="fas fa-code"> </i> 
         </div>
-      </div>
-    </div>
-    <div class="container-fluid themed-container">
-      
-    </div>
-    <div class="row mb-3">
-      <div class="col-6 themed-grid-col">
-        <h1>
-          Languagues
-          </h1>
-         
-              <h3>
-                  Spanish : Native
-              </h3>
-            <br>        
-            
-              <h3>
-                English : C2 : Certificated
-              <a href="CI.jpg"> : See diploma </a>
-              </h3>
-              
-          <br>
-            
-              <h3>
-                 French : A2 : Certificated
-              <a href=""> : See diploma </a>
-              </h3>
-      </div>
-      <div class="col-6 themed-grid-col">
-        <h1>
-          Education
-          </h1>
-          <p>
-           Pinar del Rio University
-           </p>
-           <p> To see awards and diploms click <a href="diploms.html">here</a></p>
-      </div>
-    </div>
-  </section>
-  <br><br>
-  <section id="gallery"> 
-    <div class="row mb-3">
-      <div class="col-md-8 themed-grid-col">
-        <div class="pb-3" class="text-center py-5 mt-3">
-         <h1> Personal Information</h1>
-        </div>
-        <div class="row">
-          <div class="col-md-6 themed-grid-col">
-            <ul>
-              <li>
-                Nationality: Cuban
-              </li>
-              <li>
-                <a href="#footer"> Contact </a>
-              </li>
-              <li>
-                Year of birth: 2000
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 themed-grid-col">
-            <h6>
-              Get my card
-            </h6>
-            <a href="card.png"> download here </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 themed-grid-col">
         <img src="yo.jpg" class="phot">
       </div>
+      <div class="skill" class="col-sm-6">
+        <div class="icon-container">
+             <i class="fas fa-chart-bar"></i>
+        </div>
+       <h1>
+         Personal Information:
+       </h1>
+       <ul>
+         <li>
+           Nationality: Cuban
+         </li>
+         <li>
+           <a href="#footer"> Contact </a>
+         </li>
+         <li>
+           Year of birth: 2000
+         </li>
+       </ul>
+      </div>
+      
     </div>
-</section>
-<footer id="footer">
-  <div class="container-fluid themed-container">
-  <p class="text-center"> 
-    <div class="iconos-sociales"  >
-        <a href="https://api.whatsapp.com/send?phone=+5354863014"> <img src="ws.ico"> </a>
-            <a href="https://telegram.com/@AceitunasEnAlmibar"> <img src="telegram.ico"> </a>
-            <a href="mailto: laurairene785@gmail.com"> <img src="mail.ico"> </a>
-            <a href="https://github.com/laurairene785/"> <img src="github.ico"> </a>
-           <a href=""> <img src="inkedin.ico"> </a>
-         
-        </div>       
-    </p>
-    </div>
-    <div class="container-fluid themed-container">
-      <p class="text-center"> 
-    2020 Copyright Laura Irene Capo Hernandez
-    </p>
   </div>
+</section>
+<br>
+<br>
+<footer class="footer mt-auto py-3">
+
+
 </footer>
+
+  
 <script  href="https://unpkg.com/aos@next/dist/aos.js" ></script>
 <script src="cv.js"></script>
-</body>
 </html>
